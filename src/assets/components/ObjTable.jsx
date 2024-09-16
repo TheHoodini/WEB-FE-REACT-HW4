@@ -22,12 +22,12 @@ const ObjTable = ({ data }) => {
                     const status = getStatus(objective.compliance);
                     return (
                         <tr key={objective.id}>
-                            <td>{objective.id}</td>
-                            <td>{objective.goal}</td>
-                            <td>{objective.target >= 1000 ? `$ ${objective.target.toLocaleString()}` : `${objective.target}%`}</td>
-                            <td>{objective.progress >= 1000 ? `$ ${objective.progress.toLocaleString()}` : `${objective.progress}%`}</td>
-                            <td>{objective.compliance}%</td>
-                            <td style={{ color: status.color }}>{status.text}</td>
+                            <td className="p-4 text-center">{objective.id}</td>
+                            <td className="p-4 text-center font-light">{objective.goal}</td>
+                            <td className="p-4 text-center">{objective.target >= 100 ? `$ ${objective.target.toLocaleString()}` : `${objective.target}%`}</td>
+                            <td className="p-4 text-center">{objective.progress >= 100 ? `$ ${objective.progress.toLocaleString()}` : `${objective.progress}%`}</td>
+                            <td className="p-4 text-center">{objective.compliance}%</td>
+                            <td className="p-4 text-center" style={{ color: status.color }}>{status.text}</td>
                         </tr>
                     );
                 })}

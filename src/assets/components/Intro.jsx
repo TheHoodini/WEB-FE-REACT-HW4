@@ -1,8 +1,14 @@
 function Intro() {
     return (
         <div>
-            <h1 className="text-center">Intro</h1>
-            <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec ullamcorper ante. Cras laoreet leo a mauris dictum, sed interdum risus ultricies. Quisque ac erat lacus. Duis sem orci, finibus sit amet varius nec, sagittis sed nisl. Nullam a erat non risus mattis aliquet. Praesent eu mattis justo. Fusce vel erat ac lectus luctus accumsan at at urna. Sed rhoncus tellus id turpis dapibus, vitae hendrerit urna malesuada. Aenean nec quam aliquam, vulputate lectus vitae, ullamcorper eros. Etiam blandit vulputate odio. Morbi suscipit scelerisque magna ut ultrices.</p>
+            <h1 className="text-center font-bold text-2xl mt-5">Introducción</h1>
+            <p className="mt-5 font-light">
+                Blasenhaus es una empresa dedicada a la creación de bebidas carbonatadas,
+                fusionando sabor y arte bajo la inspiración del icónico movimiento Bauhaus. Nuestro compromiso
+                es ofrecer productos que destacan por su diseño único, siguiendo los principios de simplicidad
+                y funcionalidad, mientras brindamos una experiencia refrescante a nuestros clientes. Nos enfocamos
+                en mantener altos estándares de calidad, innovación en cada etapa del proceso y una clara alineación
+                con los valores de eficiencia y modernidad que nos definen.</p>
         </div>
     );
 }
