@@ -13,11 +13,11 @@ function App() {
   return (
     <div className='font-lexend'>
       <Header />
-      <main className='mx-14'>
+      <main className='mx-[40px] lg:mx-[150px] xl:mx-[300px]'>
 
         <Intro />
         <ol>
-          <li className='mt-10 font-extrabold text-2xl mb-5'>1. Diagnóstico Actual</li>
+          <li className='mt-10 font-extrabold text-xl sm:text-2xl mb-5'>1. Diagnóstico Actual</li>
           <Dofa content={
             [
               {
@@ -51,7 +51,7 @@ function App() {
             ]
           } />
 
-          <li className='mt-10 font-extrabold text-2xl mb-5'>2. Identidad Organizacional</li>
+          <li className='mt-10 font-extrabold text-xl sm:text-2xl mb-5'>2. Identidad Organizacional</li>
           <TitleText
             title="Misión"
             text="En Blasenhaus, nuestra misión es fusionar arte y sabor, creando bebidas 
@@ -76,7 +76,7 @@ function App() {
             refrescante y satisfactoria para nuestros clientes."
           />
 
-          <li className='mt-10 font-extrabold text-2xl mb-6'>3. Objetivos estratégicos</li>
+          <li className='mt-10 font-extrabold text-xl sm:text-2xl mb-6'>3. Objetivos estratégicos</li>
           {/* TABLA */}
           <ObjTable data={
             [
